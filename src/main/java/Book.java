@@ -1,8 +1,11 @@
+import lombok.Builder;
+
 public class Book {
 
     final private String title;
     final private String author;
 
+    @Builder
     public Book(String title, String author){
         this.title = title;
         this.author = author;

@@ -39,14 +39,14 @@ public class JsonParser {
         JSONObject employeeObject = (JSONObject) book.get("book");
 
         //Get employee first name
-        String firstName = (String) employeeObject.get("title");
+        String title = (String) employeeObject.get("title");
 //        System.out.println(firstName);
 
         //Get employee last name
-        String lastName = (String) employeeObject.get("author");
+        String author = (String) employeeObject.get("author");
 //        System.out.println(lastName);
 
-        return new Book("test", "test");
+        return new Book(title, author);
     }
 
 }
