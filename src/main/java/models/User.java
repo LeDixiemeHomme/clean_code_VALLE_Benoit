@@ -2,17 +2,15 @@ package models;
 
 import exceptions.DueDatePassedException;
 import exceptions.DuplicateBookInLibraryException;
-import interfaces.IApplicationTime;
-import interfaces.IBookConverter;
-import interfaces.IBorrow;
-import interfaces.IDuplicationAvoid;
+import exceptions.MaxNumberException;
+import interfaces.*;
 import lombok.Builder;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-public class User implements IBorrow, IDuplicationAvoid, IApplicationTime, IBookConverter {
+public class User implements IBorrow, IDuplicationAvoid, IApplicationTime, IBookConverter, IBorrowNumberLimit {
 
     private final String login;
     private List<BorrowedBook> borrowedBooks;
@@ -26,8 +24,9 @@ public class User implements IBorrow, IDuplicationAvoid, IApplicationTime, IBook
     public void addBook(BorrowedBook book) {
         try {
             this.checkIfBookAlreadyInBooks(BorrowedBookListToBookList(this.borrowedBooks), book);
+            this.checkNumberLimit(this.borrowedBooks.size() + 1, 4);
             this.borrowedBooks.add(book);
-        } catch (DuplicateBookInLibraryException e) {
+        } catch (DuplicateBookInLibraryException | MaxNumberException e) {
             System.out.println(e.getMessage());
         }
     }
@@ -71,5 +70,12 @@ public class User implements IBorrow, IDuplicationAvoid, IApplicationTime, IBook
             convertedBooks.add(BorrowedBookToBook(borrowed));
         }
         return convertedBooks;
+    }
+
+    @Override
+    public void checkNumberLimit(int number, int maxNumber) throws MaxNumberException {
+        if(number > maxNumber){
+            throw new MaxNumberException("You have reach " + maxNumber + " books !");
+        }
     }
 }
