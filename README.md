@@ -1,6 +1,6 @@
 # clean_code_VALLE_Benoit
 
-# Solid Library Kata
+# Solid models.Library Kata
 
 We decided to try an experiment in a new Field: software for Libraries. 
 In order to build this proof of concept, we interviewed a few potential clients.

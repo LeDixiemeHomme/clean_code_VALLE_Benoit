@@ -1,3 +1,10 @@
-Book$BookBuilder.class
-DuplicateBookInLibraryException.class
-Library$LibraryBuilder.class
+models\User$UserBuilder.class
+models\BorrowedBook.class
+interfaces\IDuplicationAvoid.class
+utils\JsonParser.class
+models\Book.class
+models\Book$BookBuilder.class
+models\Library.class
+models\Library$LibraryBuilder.class
+interfaces\IDueDate.class
+exceptions\DuplicateBookInLibraryException.class

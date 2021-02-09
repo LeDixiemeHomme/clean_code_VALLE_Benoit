@@ -1,3 +1,9 @@
+import models.Book;
+import models.BorrowedBook;
+import models.Library;
+import models.User;
+import utils.JsonParser;
+
 import java.util.ArrayList;
 
 public class Run {
@@ -9,6 +15,10 @@ public class Run {
             librairy.addBook(book);
         }
 
-        System.out.println(librairy.getBooks());
+        Book book1 = Book.builder().title("title").author("author").build();
+        Book book2 = Book.builder().title("title").author("author").build();
+        User user = User.builder().login("user1").borrowedBooks(new ArrayList<>()).build();
+
+        user.borrow(book1);
     }
 }

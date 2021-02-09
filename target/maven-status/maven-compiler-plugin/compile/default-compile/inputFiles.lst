@@ -1,6 +1,12 @@
-C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\JsonParser.java
-C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\User.java
-C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\DuplicateBookInLibraryException.java
-C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\Book.java
-C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\Library.java
+C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\exceptions\DuplicateBookInLibraryException.java
+C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\models\BorrowedBook.java
+C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\models\User.java
+C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\models\Book.java
+C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\models\Library.java
+C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\utils\JsonParser.java
+C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\exceptions\DueDatePassedException.java
+C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\interfaces\IApplicationTime.java
+C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\interfaces\IBookConverter.java
+C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\interfaces\IDuplicationAvoid.java
+C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\interfaces\IBorrow.java
 C:\Users\benoi\Dev\VM_Ubuntu16.04\pROJETS\clean_code\nouveau\clean_code_VALLE_Benoit\src\main\java\Run.java

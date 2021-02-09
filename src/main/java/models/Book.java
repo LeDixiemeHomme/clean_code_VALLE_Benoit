@@ -1,3 +1,6 @@
+package models;
+
+import interfaces.IBookConverter;
 import lombok.Builder;
 
 public class Book {
@@ -22,8 +25,8 @@ public class Book {
     @Override
     public String toString() {
         return "Book{" +
-                "title='" + title + '\'' +
-                ", author=" + author +
+                "title = '" + title + '\'' +
+                ", author = " + author +
                 '}';
     }
 }
