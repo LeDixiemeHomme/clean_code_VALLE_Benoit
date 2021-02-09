@@ -1,6 +1,8 @@
 exceptions\MaxNumberException.class
+interfaces\IGiveBackBookBelonging.class
 models\User$UserBuilder.class
 models\BorrowedBook.class
+models\BorrowedBook$BorrowedBookBuilder.class
 interfaces\IDuplicationAvoid.class
 utils\JsonParser.class
 models\Book.class

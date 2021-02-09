@@ -6,6 +6,8 @@ import models.BorrowedBook;
 import java.util.List;
 
 public interface IBookConverter {
-    Book BorrowedBookToBook(BorrowedBook borrowedBook);
-    List<Book> BorrowedBookListToBookList(List<BorrowedBook> books);
+    Book borrowedBookToBook(BorrowedBook borrowedBook);
+    BorrowedBook bookToBorrowedBook(Book book);
+    List<Book> borrowedBookListToBookList(List<BorrowedBook> borrowedBooks);
+    List<BorrowedBook> bookListToBorrowedBookList(List<Book> books);
 }

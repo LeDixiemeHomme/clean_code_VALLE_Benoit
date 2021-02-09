@@ -1,6 +1,5 @@
 package models;
 
-import interfaces.IBookConverter;
 import lombok.Builder;
 
 public class Book {
