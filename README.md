@@ -1,4 +1,13 @@
-# clean_code_VALLE_Benoit
+# clean_code_VALLE_Benoît
+
+## Liste des features du projet
+
+* Crud d'un user, library, livre.
+* Récupération du contenu d'un fichier .json à la racine du projet, ici ./books.json.
+* Test la valeur maximal de livre possedé par un user.
+* Test si le livre n'est pas déjà présent dans la liste de livre d'une bibliothèque ou des livres empruntés par un user.
+* Test si un livre enlevé d'une liste y est bien présent avant de l'enlever.
+* Test si la date de rendu du livre est passée ou non.
 
 # Solid models.Library Kata
 
